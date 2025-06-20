@@ -11,7 +11,7 @@ export class PageCatalogue {
       .getByRole("button", { name: /Panier/i }); // /i -> case insensitive;
   }
 
-  async afficheMiniPanier(msg: string) {
+  async afficheMiniPanier() {
     await this.boutonPanier.click();
   }
 
