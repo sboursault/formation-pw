@@ -1,7 +1,7 @@
 import { test, expect } from "../support/fixtures";
 import { PageCatalogue } from "../support/page-objects/catalogue.page";
 
-test.beforeEach(async ({ page, pageCatalogue }) => {
+test.beforeEach(async ({ page }) => {
   await page.goto("/");
 });
 
